@@ -1,0 +1,18 @@
+.imgPreview{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 15px -3px rgb(0 0 0 / 7%), 0 10px 20px -2px rgb(0 0 0 / 4%);
+}
+
+.close{
+    width: 35px;
+    border-radius: 50%;
+    height: 35px;
+    margin-left: -20px;
+    background-color: black;
+    float: left;
+    color: white;
+}

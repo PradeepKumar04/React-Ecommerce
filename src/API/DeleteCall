@@ -1,0 +1,9 @@
+import axios from 'axios'
+
+const DeleteCall = async (url,data) => {
+  return await axios.delete(url, data,{
+    headers: {"Authorization" : `Bearer ${localStorage.getItem('token')}`}
+  })
+}
+
+export default DeleteCall
